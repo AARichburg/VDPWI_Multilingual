@@ -24,3 +24,7 @@ Optional arguments
 the list of additional optional arguments can be found in __main__.py
 
 Run the code with python __main__.py model_outfile --REQUIRED_ARGUMENTS --OPTIONAL_ARGUMENTS
+
+Saved output is the model saved in pickled format
+
+div_test.py can be used to take an already trained model and generate the list of divergent and non-divergent sentence pairs ordered by score
